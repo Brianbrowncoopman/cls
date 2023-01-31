@@ -1,0 +1,73 @@
+.home {
+  background-color: rgb(104, 11, 190);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bigContainer {
+  width: 1200px;
+  height: 800px;
+  background-color: rgb(85, 55, 112);
+  padding: 10px;
+  margin: auto;
+  align-content: center;
+  display: flex;
+  flex-direction: arrow;
+  gap: 120px;
+
+
+}
+
+.container_a{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(187, 178, 235);
+  color:rgb(2, 2, 170);
+  margin-left:250px ;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgb(8, 8, 8);
+  border: 2px solid rgb(44, 49, 122);
+}
+
+.container_a:hover{
+  width: 320px;
+  height: 230px;
+  background-color: rgb(22, 7, 82);
+  color: rgb(151, 139, 204);
+ 
+}
+
+.container_b{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(231, 220, 120);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(25, 29, 7);
+  border: 2px solid rgb(6, 7, 0);
+}
+
+.container_b:hover{
+  width: 320px;
+  height: 230px;
+  background-color: rgb(185, 197, 73);
+  color: rgb(165, 149, 5);
+ 
+}
+
+button {
+  width: 80px;
+  height: 50px;
+  background-color: brown;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn_datos {
+  background-color: rgb(200, 214, 6);
+}
+
+.btn_config {
+  background-color: rgb(45, 7, 184);
+}
